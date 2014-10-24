@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background.root">#f07070</color>
+
+	<color name="foreground.quote">#f07070</color>
+	<color name="background.quote">#f0f0f0</color>
+
+	<color name="foreground.button">#f0f0f0</color>
+	<color name="background.button">#a03030</color>
+	<color name="background.button.active">#902020</color>
+
+	<color name="foreground.editText">#f07070</color>
+	<color name="background.editText">#f0f0f0</color>
+	<color name="background.editText.active">#a0f0f0f0</color>
+
+</resources>

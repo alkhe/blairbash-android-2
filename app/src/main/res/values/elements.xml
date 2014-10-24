@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item name="quoteBox" type="id"/>
+	<item name="quoteText" type="id"/>
+	<item name="goQuoteButton" type="id"/>
+	<item name="goQuoteEditText" type="id"/>
+
+	<style name="AppTheme.QuoteBox" parent="AppTheme.VerticalContent">
+		<item name="android:background">@color/background.quote</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+
+	<style name="AppTheme.QuoteText" parent="AppTheme.HorizontalContent">
+		<item name="android:textColor">@color/foreground.quote</item>
+	</style>
+
+	<style name="AppTheme.Button.GoQuote" parent="AppTheme.Button">
+		<item name="android:id">@id/goQuoteButton</item>
+		<item name="android:text">@string/goQuote</item>
+	</style>
+
+	<style name="AppTheme.EditText.GoQuote" parent="AppTheme.EditText">
+		<item name="android:id">@id/goQuoteEditText</item>
+	</style>
+
+</resources>

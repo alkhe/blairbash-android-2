@@ -1,0 +1,46 @@
+<resources>
+
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+	</style>
+
+	<style name="AppTheme.Fragment">
+		<item name="android:background">@color/background.root</item>
+	</style>
+
+	<style name="AppTheme.Content">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:textSize">20sp</item>
+	</style>
+
+	<style name="AppTheme.VerticalContent" parent="AppTheme.Content">
+		<item name="android:layout_height">0dp</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="AppTheme.HorizontalContent" parent="AppTheme.Content">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="AppTheme.Navigation">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+
+	<style name="AppTheme.Button" parent="AppTheme.HorizontalContent">
+		<item name="android:background">@drawable/button</item>
+		<item name="android:textColor">@color/foreground.button</item>
+	</style>
+
+	<style name="AppTheme.EditText" parent="AppTheme.HorizontalContent">
+		<item name="android:background">@drawable/edittext</item>
+		<item name="android:textColor">@color/foreground.editText</item>
+		<item name="android:inputType">number</item>
+		<item name="android:padding">5dp</item>
+	</style>
+
+
+</resources>

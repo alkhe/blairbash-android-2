@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 xmlns:tools="http://schemas.android.com/tools"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 style="@style/AppTheme.Fragment"
+			 android:orientation="vertical"
+			 tools:context="io.chronize.blairbash.BrowseFragment">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<LinearLayout
+			style="@style/AppTheme.QuoteBox">
+
+			<TextView
+				android:id="@+id/quote_view"
+				style="@style/AppTheme.QuoteText" />
+
+
+		</LinearLayout>
+	</ScrollView>
+	
+	<LinearLayout
+		android:id="@+id/quote_navigation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+		<Button
+			style="@style/AppTheme.Button" />
+
+		<EditText
+			style="@style/AppTheme.EditText.GoQuote" />
+
+		<Button
+			style="@style/AppTheme.Button.GoQuote"
+			android:onClick="goQuote" />
+
+		<Button
+			style="@style/AppTheme.Button" />
+	</LinearLayout>
+
+</LinearLayout>
